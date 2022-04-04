@@ -143,7 +143,7 @@
             
            
             
-            
+            border: solid 2px green;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -172,7 +172,7 @@
             flex-direction: column;
             padding-top: 7em;
             padding: 5em;
-            
+            border: solid 3px red;
         }
     
         .programs{
