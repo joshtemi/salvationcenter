@@ -143,7 +143,7 @@
             
            
             
-            border: solid 2px green;
+     
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -165,14 +165,14 @@
     
         .intro{
             background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
-            min-height:  50vh;
+/*             min-height:  50vh; */
             background-size: cover;
             display: flex;
             align-items: center;
             flex-direction: column;
             padding-top: 7em;
-            padding: 5em;
-            border: solid 3px red;
+            padding: 15em;
+           
         }
     
         .programs{
