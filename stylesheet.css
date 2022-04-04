@@ -165,7 +165,7 @@
     
         .intro{
             background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
-            height:  50vh;
+            min-height:  50vh;
             background-size: cover;
             display: flex;
             align-items: center;
