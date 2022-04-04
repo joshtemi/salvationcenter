@@ -166,7 +166,7 @@
         }
     
         .intro{
-            background-image: url(./images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+            background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
             height:  50vh;
             background-size: cover;
             display: flex;
@@ -198,7 +198,7 @@
             display: inline-block;
             cursor: pointer;
             margin: 10px 15px;
-            background-image: url(../images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+            background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
             border: 2px solid blanchedalmond;
             background-position: center;
             background-size: cover;
@@ -225,7 +225,7 @@
         }
     
         #cardYoung{
-            background-image: url(../images/adedotun-adegborioye-_dhIJcPDg0U-unsplash.jpg);
+            background-image: url(images/adedotun-adegborioye-_dhIJcPDg0U-unsplash.jpg);
         }
         
         .card-btn{
