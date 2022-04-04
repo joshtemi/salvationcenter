@@ -91,7 +91,7 @@
     
         }
     
-        /* @media(max-width:768px){
+        @media(max-width:768px){
             .dropbar{
                 display: block;
             }
@@ -112,7 +112,7 @@
                 top: 70px;
                 gap: 0;
                 flex-direction: column;
-                background-color: white;/*rgb(4, 4, 24);
+                background-color: white;/*rgb(4, 4, 24);*/
                 width: 100%;
                 text-align: center;
                 transition: 0.3s;
@@ -126,7 +126,7 @@
             .nav-menu.active{
                 left: 0;
             }
-        } */
+        } 
     
     
         .sav1{
