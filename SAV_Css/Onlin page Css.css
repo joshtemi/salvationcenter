@@ -11,7 +11,7 @@ li{
     list-style: none;
 }
 #welcome{
-     /*background-image: url(../images/wil-stewart-T26KCgCPsCI-unsplash.jpg);*/
+     /*background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);*/
      background-color:white;
      
 }
@@ -111,7 +111,7 @@ a{
     }
 }
 .banner{
-    background-image: url(../images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
+    background-image: url(images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
     background-size: cover;
 }
 
