@@ -126,6 +126,14 @@
             .nav-menu.active{
                 left: 0;
             }
+              nav{
+                position: fixed;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                background-color: white;
+                
+            }
         } 
     
     
