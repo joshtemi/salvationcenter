@@ -182,7 +182,7 @@
             padding: 0;
             margin: 10vw 5vh;
             text-align: center;
-            border: green 3px dotted;
+          
            
             
         }
@@ -268,7 +268,7 @@
             
             padding: 0;
             
-            border: red solid 3px;
+            
     
         }
         #zoom{
@@ -289,7 +289,7 @@
             font-size: 1rem;
             /* max-height: 25rem; */
             max-width: 70em;
-            border: red 3px solid;
+           
             margin-bottom: 3em;
          }
     #online-btn{
