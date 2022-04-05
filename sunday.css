@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
+
 body{
     font-family: 'Oswald', sans-serif;
     
@@ -156,18 +156,33 @@ h1{
 
 #expect{
     display: block;
-   
+ 
     padding-top:1em;
     padding-bottom: 2em;
     justify-content: center ;
     display: flex;
 
 }
+@media(min-width:760px){
+    .content-wrapper{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .container{
+        margin: 0 auto;
+      
+        max-width: 70rem;
+    }
+    
+}
 
 .content-wrapper{
     display: block;
     justify-content: center;
    padding: 5vh 5vw ;
+   margin: 1em;
    
     border: solid 5px black;
 
