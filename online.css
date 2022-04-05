@@ -5,6 +5,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+
 nav{
     color: white;
 }
@@ -46,13 +47,13 @@ a{
 
 .nav-logo{
     font-size: 3rem;
-    
+     font-family: 'Permanent Marker', cursive;;
 }
 
 .nav-link{
     transition: 0.7s ease;
     padding: 20px;
-  
+    font-family: 'Permanent Marker', cursive;
 }
 
 .nav-link:hover{
@@ -92,7 +93,7 @@ a{
     }
 
     .nav-menu{
-        position: fixed;
+        position: absolute;
         left: -100%;
         top: 70px;
         gap: 0;
@@ -111,25 +112,40 @@ a{
     .nav-menu.active{
         left: 0;
     }
+
+    nav{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: white;
+        
+    }
+ 
+
+
     iframe{
-        width: 400px;
+        width: 450px;
         height: 315px;
     }
 }
 .banner{
     background-image: url(../images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
     background-size: cover;
+    padding: 5em 1em;
 }
 
 .main-header{
 text-align: center;
 color: blanchedalmond;
 
+background-color: rgba(42, 38, 38, 0.3);
+background-blend-mode: screen;
+
 }
 h1.main-header{
-    font-size: 55px;
-    padding-top: 30vh;
-    padding-bottom: 15vh;
+    font-size: 3em;
+    
 }
 
 #youtube{
@@ -160,9 +176,7 @@ h1.main-header{
     text-align: center;
 }
 
-#socials{
-    border: solid yellow 2px;  
-}
+
 .social-icons a{
     width: 40px;
     height: 40px;
@@ -205,7 +219,7 @@ h1.main-header{
     position: fixed;
     top:50%;
     right: 0;
-
+ 
     transform: translate(-50%);
     margin: 0;
 }
@@ -219,7 +233,7 @@ h1.main-header{
     margin: 0;
     line-height: 0px;
     background-color: #ffffff;
-    
+    border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0,2);
 }
 .a-social-b i{
