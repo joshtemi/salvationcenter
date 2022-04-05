@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Oswald', sans-serif;
+}
 
 nav{
     color: white;
@@ -44,13 +46,13 @@ a{
 
 .nav-logo{
     font-size: 3rem;
-     font-family: 'Permanent Marker', cursive;;
+    
 }
 
 .nav-link{
     transition: 0.7s ease;
     padding: 20px;
-    font-family: 'Permanent Marker', cursive;
+  
 }
 
 .nav-link:hover{
