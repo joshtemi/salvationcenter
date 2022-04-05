@@ -47,13 +47,13 @@ a{
 
 .nav-logo{
     font-size: 3rem;
-     font-family: 'Permanent Marker', cursive;;
+     
 }
 
 .nav-link{
     transition: 0.7s ease;
     padding: 20px;
-    font-family: 'Permanent Marker', cursive;
+    
 }
 
 .nav-link:hover{
@@ -77,6 +77,15 @@ a{
 
 }
 
+
+@media(min-width:768px){
+    .main-header{
+        max-width: 400px;
+        padding: 2em;
+        margin: 0 auto;
+    }
+
+}
 @media(max-width:768px){
     .dropbar{
         display: block;
@@ -130,7 +139,7 @@ a{
     }
 }
 .banner{
-    background-image: url(../images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
+    background-image: url(images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
     background-size: cover;
     padding: 5em 1em;
 }
