@@ -150,23 +150,30 @@ h1.main-header{
     
    
 }
-@media(max-width:460px){
+.cards-container{
+ margin: 0 auto;      
+}
+
+@media(max-width:760px){
     .staff-pics{
-        min-width: 150px;
+        max-width: 150px;
         min-height: 250px;
-        
-      
-    
    
     }
+    .staff-cards{
+        max-width: 400px;
+
+    }
+
    .staff{
        display: flex;
        justify-content: space-between;
        flex-direction: column;
       margin: 1em;
+      align-items: center;
        
    }
-}
+}   
 
 .staff{
     display: flex;
@@ -177,8 +184,22 @@ h1.main-header{
     
 }
 
+
 .staff-details{
     line-height: 1.5em;
+}
+
+@media(min-width:765px){
+    .staff-cards{
+        width: 500px;
+        height: auto;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
 
 /* STAFF PROFILES ENDS HERE*/
@@ -257,5 +278,4 @@ h1.main-header{
     align-items: center;
     text-align: center;
     position: relative;
-
 }
