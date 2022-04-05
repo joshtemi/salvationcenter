@@ -109,6 +109,10 @@ a{
     .nav-menu.active{
         left: 0;
     }
+    iframe{
+        width: 450px;
+        height: 315px;
+    }
 }
 .banner{
     background-image: url(../images/adeyemi-emmanuel-abebayo-rtOUp5lCHps-unsplash.jpg);
@@ -128,7 +132,8 @@ h1.main-header{
 
 #youtube{
     text-align: center;
-    margin: 50px 50px;
+    margin: 50px 0;
+    width: 100%;
 }
 
 #zoom{
@@ -152,6 +157,10 @@ h1.main-header{
 #online{
     text-align: center;
 }
+
+#socials{
+    border: solid yellow 2px;  
+}
 .social-icons a{
     width: 40px;
     height: 40px;
@@ -159,7 +168,7 @@ h1.main-header{
     justify-content: center;
     background-color: #e6e3e3;
     align-items: center;
-    margin: 20px 10px;
+    margin: 20px 0;
     border-radius: 50%;
     
 }
@@ -193,8 +202,10 @@ h1.main-header{
 .a-social-b{
     position: fixed;
     top:50%;
-    right: 0px;
+    right: 0;
+    border: solid red 2px;
     transform: translate(-50%);
+    margin: 0;
 }
 .a-social-b a{
     display: flex;
@@ -202,8 +213,8 @@ h1.main-header{
     align-items: center;
     height: 50px;
     width: 50px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     line-height: 0px;
     background-color: #ffffff;
     border: 1px solid #cbcbcb;
@@ -212,6 +223,7 @@ h1.main-header{
 .a-social-b i{
     color: #2b2b2b;
     font-size: 20px;
+    margin-right: 0;
 }
 
 #socials{
