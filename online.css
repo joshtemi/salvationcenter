@@ -110,7 +110,7 @@ a{
         left: 0;
     }
     iframe{
-        width: 450px;
+        width: 400px;
         height: 315px;
     }
 }
@@ -203,7 +203,7 @@ h1.main-header{
     position: fixed;
     top:50%;
     right: 0;
-    border: solid red 2px;
+
     transform: translate(-50%);
     margin: 0;
 }
@@ -217,7 +217,7 @@ h1.main-header{
     margin: 0;
     line-height: 0px;
     background-color: #ffffff;
-    border: 1px solid #cbcbcb;
+    
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0,2);
 }
 .a-social-b i{
