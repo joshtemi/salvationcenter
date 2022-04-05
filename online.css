@@ -5,11 +5,17 @@
 }
 body{
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
-
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1em;
+}
 
 nav{
     color: white;
+    margin: 0;
 }
 
 li{
@@ -132,12 +138,18 @@ a{
         background-color: white;
         
     }
- 
-
+/*  
+    .youtube{
+        max-width:350px;
+        padding: 1em;
+        margin: 0 auto;
+        
+    } */
 
     iframe{
-        width: 450px;
+        max-width: 320px;
         height: 315px;
+        
     }
 }
 .banner{
@@ -169,7 +181,9 @@ h1.main-header{
     font-size: 5rem;
     text-align: center;
     color: blue;
-    margin-bottom: 5px;
+    margin-bottom: .5em;
+    cursor: pointer;
+    margin-top:1em;
 }
 
 #zoom-btn{
@@ -179,12 +193,14 @@ h1.main-header{
     background-color: blue;
     color: white;
     text-align: center;
-    margin-bottom: 40px;
+    
+    font-size: 2em;
     
 }
 
 #online{
     text-align: center;
+    margin-bottom: 4em;
 }
 
 
