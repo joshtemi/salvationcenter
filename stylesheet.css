@@ -19,7 +19,7 @@
     }
     /* MOBLIE LAYOUT STUCTURE  */
     .container{
-        max-width: 300px;
+        max-width: 390px;
         margin: 0 auto;
     }
    
@@ -193,6 +193,7 @@
     
         .intro{
             background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+            background-color: rgb(9, 17, 57);
             /*      min-height:  50vh; */
             background-size: cover;
             display: flex;
@@ -228,6 +229,7 @@
             display: inline-block;
             cursor: pointer;
             background-image: url(images/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+            background-color: rgb(9, 17, 57);
             border: 2px solid blanchedalmond;
             background-position: center;
             background-size: cover;
@@ -244,12 +246,15 @@
     
         #cardYoung{
             background-image: url(images/adedotun-adegborioye-_dhIJcPDg0U-unsplash.jpg);
+            background-color: rgb(9, 17, 57);
         }
         #cardProgram{
             background-image: url(images/prayer.jpg);
+            background-color: rgb(9, 17, 57);
         }
         #cardKids{
-            background-image: url(images/bible\ chlid.jpg);
+            background-image: url(images/biblestudy.jpg);
+            background-color: rgb(9, 17, 57);
         }
         .card-btn{
             /* width: 320px; */
@@ -468,7 +473,7 @@
     }
     .expect-cards{
         /* padding: 1.5em; */
-        border: rgb(22, 22, 22) 3px solid;
+        /* border: rgb(22, 22, 22) 3px solid; */
         max-width: 100%;
         text-align: center;
         margin: 0 auto;
@@ -530,12 +535,13 @@
     object-fit:cover;
    background-size: cover;
    background-position: center;
+   background-color: rgb(9, 17, 57);
 }
 
 .bible-study{
-     background-image: url(images/bible\ chlid.jpg);
+    background-image: url(images/biblestudy.jpg);
     color: blanchedalmond;
-  
+  background-color: rgb(9, 17, 57);
    background-size: cover;
    background-position: center;
 }
@@ -579,7 +585,6 @@
     .container{
         margin: 0 2rem;
         padding: 1em;
-        max-width:350px;
     }
    
 
