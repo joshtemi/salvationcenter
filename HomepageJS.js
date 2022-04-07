@@ -14,7 +14,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         navMenu.classList.remove("active")
     } ))
 
-Zoom.textContent="OR ONLINE VIA ZOOM"
+Zoom.textContent="JOIN US ONLINE"
 
 zoomBtn.addEventListener("click",function(){
     window.open('https://www.google.com', _blank)
