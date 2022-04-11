@@ -67,7 +67,7 @@
             padding: 0 1.5rem;
             background-color: white;
             height: 9vh;
-            
+           
             
         }
     
@@ -91,14 +91,30 @@
         }
     
         .nav-link{
-            transition: 0.7s ease;
-            padding: 1.5rem;
+            /* transition: all 0.7s ease; */
+            color: black;
+            cursor: pointer;
+            /* padding: 1.5rem; */
         
         }
     
         .nav-link:hover{
             color:rgb(32, 36, 61);
-            text-decoration-line: underline;
+            
+            
+            color: red;
+        }
+        .nav-item{
+            padding: .5em;
+            transition: all 0.7s ease;
+           
+        }
+
+        .nav-item:hover,
+        .nav-item:focus{
+            border-radius: 7px;
+            /* border: #000 1px solid; */
+            box-shadow: 0px 11px 20px 3px #7e7e6f9c; 
         }
     
         .dropbar{
@@ -140,15 +156,23 @@
                 flex-direction: column;
                 background-color: white;
                 width: 100%;
-                max-height: 91vh;
+                height: 90vh;
+                /* max-height: 91vh; */
                 text-align: center;
                 transition: 0.3s;
             }
     
             .nav-item{
                 margin: 1rem 0;
+                padding: .8em;
     
             }
+            .nav-item:hover,
+            .nav-item:focus{
+            border-radius: 7px;
+            border: #000 1px solid;
+           
+        }
     
             .nav-menu.active{
                 left: 0;
@@ -276,11 +300,7 @@
             text-align: center;  
         }
     
-        .footer{
-            text-align: center;
-            padding-bottom: 30px;
-        }
-    
+       
         .sunday{
             
             letter-spacing: 2px;
@@ -299,11 +319,7 @@
             font-size: 50px;
         }
     
-        p.watchword {
-           
-            font-size: 30px;
-            margin-bottom: 20px;
-        }
+        
     
         .about{
             padding: 1em;
@@ -328,8 +344,17 @@
     .online{
         margin: 20px;
     }
-   
-    
+  /* Footer layout  */
+    .footer{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    p.watchword {
+           
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
     .social-icons a{
         width: 40px;
         height: 40px;
@@ -425,7 +450,11 @@
     
 }
 /* FOR MOBLIE SCREENS ONLY ENDS HERE */
+.dropdown{
+  
+    display: none;
 
+}
 
 /* FOR BIGGER SCREENS ONLY STARTS HERE */
 @media(min-width:740px){
@@ -487,12 +516,53 @@
         max-width: 1200px;
     }
     .nav-link{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .footer{
         margin-top: 4em;
     }
+    .nav-item{
+        position: relative;
+    }
+
+    .dropdown{
+        position: absolute;
+        box-shadow: 0px 11px 20px 3px #7e7e6f9c; 
+        background-color: #e8e8e8;
+        width: 200px;
+        min-height: 200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        left: -100px;
+        opacity: 0;
+        pointer-events: none;
+        text-align: center;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+
+    }
+    .dropdown a{
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        pointer-events: all;
+        width: 100%;
+    }
+    .dropdown a:focus,
+    .dropdown a:hover{
+        background-color: #b8b4b4;
+    }
+    .nav-link:focus + ul{
+       opacity: 1;
+       pointer-events:fill;
+    }
+
 }
 /* FOR BIGGER SCREENS ONLY ENDS HERE */    
 .cards{
@@ -579,9 +649,13 @@
         margin: 0 2rem;
         padding: 1em;
     }
+
+   
    
 
- }
+
+}
+
 
  
 
@@ -619,9 +693,8 @@
     text-align: center;
     color: #2e2e2eaa;
 }
-
-.list-padding:hover,
-.list-padding:focus{
+.list-padding:focus,
+.list-padding:hover{
     padding: 1.2em;
    border-bottom: 4px #2e2e2e9d solid;
     border-radius: 7px;
